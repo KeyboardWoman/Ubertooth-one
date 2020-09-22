@@ -1,0 +1,7 @@
+setup.py
+KismetRest/__init__.py
+kismetrest.egg-info/PKG-INFO
+kismetrest.egg-info/SOURCES.txt
+kismetrest.egg-info/dependency_links.txt
+kismetrest.egg-info/requires.txt
+kismetrest.egg-info/top_level.txt

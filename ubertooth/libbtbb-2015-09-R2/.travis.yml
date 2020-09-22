@@ -1,0 +1,21 @@
+language: c
+
+cache: apt
+
+sudo: false
+
+addons:
+  apt:
+    packages:
+      - libpcap-dev 
+
+compiler:
+  - clang
+  - gcc
+
+before_script:
+  - mkdir build
+  - cd build
+  - CFLAGS="-g -Wall -Wextra -Werror -Wno-zero-length-array" cmake ..
+
+script: make

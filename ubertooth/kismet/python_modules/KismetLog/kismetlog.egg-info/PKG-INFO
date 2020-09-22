@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: kismetlog
+Version: 2018.0.0
+Summary: Python API for the Kismet Log interface
+Home-page: https://www.kismetwireless.net
+Author: Mike Kershaw / Dragorn
+Author-email: dragorn@kismetwireless.net
+License: UNKNOWN
+Download-URL: https://www.kismetwireless.net
+Description: UNKNOWN
+Platform: UNKNOWN

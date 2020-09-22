@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: kismetrest
+Version: 1.0
+Summary: Simplified Python API for the Kismet REST interface
+Home-page: https://www.kismetwireless.net
+Author: Mike Kershaw / Dragorn
+Author-email: dragorn@kismetwireless.net
+License: UNKNOWN
+Download-URL: https://www.kismetwireless.net
+Description: UNKNOWN
+Platform: UNKNOWN

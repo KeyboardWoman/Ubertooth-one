@@ -1,0 +1,269 @@
+sudo apt-get install cmake libusb-1.0-0-dev make gcc g++ libbluetooth-dev pkg-config libpcap-dev python-numpy python-pyside python-qt4 python-software-properties
+
+wget https://github.com/greatscottgadgets/libbtbb/archive/2015-09-R2.tar.gz -O libbtbb-2015-09-R2.tar.gz
+
+sudo apt-get install build-essential git libmicrohttpd-dev pkg-config zlib1g-dev libnl-3-dev libnl-genl-3-dev libcap-dev libpcap-dev libncurses5-dev libnm-dev libdw-dev libsqlite3-dev libprotobuf-dev libprotobuf-c-dev protobuf-compiler protobuf-c-compiler libsensors4-dev
+
+
+wget https://github.com/greatscottgadgets/libbtbb/archive/2018-08-R1.tar.gz -O libbtbb-2018-08-R1.tar.gz
+
+wget https://github.com/greatscottgadgets/ubertooth/releases/download/2018-08-R1/ubertooth-2018-08-R1.tar.xz
+
+
+
+opensourcesdr@opensourcesdr:~/SDR/kismet$ ./configure 
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for gcc option to accept ISO C99... none needed
+checking for gcc option to accept ISO Standard C... (cached) none needed
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether make sets $(MAKE)... yes
+checking how to run the C preprocessor... gcc -E
+checking for platform-specific compiler flags... none needed
+checking gcc version... 5.4.0
+checking whether g++ supports C++17 features with -std=gnu++17... no
+checking whether g++ supports C++17 features with -std=gnu++1z... no
+checking whether g++ supports C++17 features with -std=c++17... no
+checking whether g++ supports C++17 features with +std=c++17... no
+checking whether g++ supports C++17 features with -h std=c++17... no
+checking whether g++ supports C++17 features with -std=c++1z... no
+checking whether g++ supports C++17 features with +std=c++1z... no
+checking whether g++ supports C++17 features with -h std=c++1z... no
+configure: No compiler with C++17 support was found
+checking whether g++ supports C++14 features with -std=gnu++14... yes
+checking how to run the C++ preprocessor... g++ -std=gnu++14 -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether byte ordering is bigendian... no
+checking python3 module: setuptools... no
+configure: error: Missing python setuptools, if you would like to build without python entirely, use --disable-python-tools, otherwise install python setuptools for your python version
+
+
+
+
+opensourcesdr@opensourcesdr:~/SDR/kismet$ sudo apt-get install python3-setuptools
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Suggested packages:
+  python-setuptools-doc
+The following NEW packages will be installed:
+  python3-setuptools
+0 upgraded, 1 newly installed, 0 to remove and 127 not upgraded.
+Need to get 88.0 kB of archives.
+After this operation, 439 kB of additional disk space will be used.
+Get:1 http://cn.archive.ubuntu.com/ubuntu xenial/main amd64 python3-setuptools all 20.7.0-1 [88.0 kB]
+Fetched 88.0 kB in 2s (42.7 kB/s)             
+Selecting previously unselected package python3-setuptools.
+(Reading database ... 224658 files and directories currently installed.)
+Preparing to unpack .../python3-setuptools_20.7.0-1_all.deb ...
+Unpacking python3-setuptools (20.7.0-1) ...
+Setting up python3-setuptools (20.7.0-1) ...
+opensourcesdr@opensourcesdr:~/SDR/kismet$ 
+opensourcesdr@opensourcesdr:~/SDR/kismet$ sudo ldconfig
+opensourcesdr@opensourcesdr:~/SDR/kismet$ 
+opensourcesdr@opensourcesdr:~/SDR/kismet$ 
+opensourcesdr@opensourcesdr:~/SDR/kismet$ ./configure 
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for gcc option to accept ISO C99... none needed
+checking for gcc option to accept ISO Standard C... (cached) none needed
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether make sets $(MAKE)... yes
+checking how to run the C preprocessor... gcc -E
+checking for platform-specific compiler flags... none needed
+checking gcc version... 5.4.0
+checking whether g++ supports C++17 features with -std=gnu++17... no
+checking whether g++ supports C++17 features with -std=gnu++1z... no
+checking whether g++ supports C++17 features with -std=c++17... no
+checking whether g++ supports C++17 features with +std=c++17... no
+checking whether g++ supports C++17 features with -h std=c++17... no
+checking whether g++ supports C++17 features with -std=c++1z... no
+checking whether g++ supports C++17 features with +std=c++1z... no
+checking whether g++ supports C++17 features with -h std=c++1z... no
+configure: No compiler with C++17 support was found
+checking whether g++ supports C++14 features with -std=gnu++14... yes
+checking how to run the C++ preprocessor... g++ -std=gnu++14 -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether byte ordering is bigendian... no
+checking python3 module: setuptools... yes
+checking for dwarf_begin in -ldw... yes
+checking for bfd_alloc in -lbfd... no
+checking elfutils/libdw.h usability... yes
+checking elfutils/libdw.h presence... yes
+checking for elfutils/libdw.h... yes
+checking elfutils/libdwfl.h usability... yes
+checking elfutils/libdwfl.h presence... yes
+checking for elfutils/libdwfl.h... yes
+checking dwarf.h usability... yes
+checking dwarf.h presence... yes
+checking for dwarf.h... yes
+checking unwind.h usability... yes
+checking unwind.h presence... yes
+checking for unwind.h... yes
+checking execinfo.h usability... yes
+checking execinfo.h presence... yes
+checking for execinfo.h... yes
+checking for stdint.h... (cached) yes
+checking for strerror_r() return... char *
+checking for accept() addrlen type... socklen_t
+checking for pipe2... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for dlopen in -ldl... yes
+checking for deflate in -lz... yes
+checking for pthread_mutex_timedlock... no
+checking for __gnu_parallel extensions... yes
+checking for libm math function in std libs... yes
+checking for main in -lstdc++... yes
+checking for group 'root'... yes
+checking for MHD_start_daemon in -lmicrohttpd... yes
+checking microhttpd.h usability... yes
+checking microhttpd.h presence... yes
+checking for microhttpd.h... yes
+checking for setproctitle... no
+checking libutil.h usability... no
+checking libutil.h presence... no
+checking for libutil.h... no
+checking for setproctitle in -lutil... no
+checking sys/pstat.h usability... no
+checking sys/pstat.h presence... no
+checking for sys/pstat.h... no
+checking whether __progname and __progname_full are available... yes
+checking which argv replacement method to use... writeable
+checking for linux/wireless.h... yes
+checking that linux/wireless.h is what we expect... yes
+checking can we use iw_freq.flags... yes
+checking for cap_init in -lcap... yes
+checking sys/prctl.h usability... yes
+checking sys/prctl.h presence... yes
+checking for sys/prctl.h... yes
+checking sys/capability.h usability... yes
+checking sys/capability.h presence... yes
+checking for sys/capability.h... yes
+checking for pcre_compile in -lpcre... yes
+checking pcre.h usability... yes
+checking pcre.h presence... yes
+checking for pcre.h... yes
+checking for sqlite3_libversion in -lsqlite3... yes
+checking sqlite3.h usability... yes
+checking sqlite3.h presence... yes
+checking for sqlite3.h... yes
+checking for pcap_open_live in -lpcap... yes
+checking pcap.h usability... yes
+checking pcap.h presence... yes
+checking for pcap.h... yes
+checking for pcap_setnonblock in -lpcap... yes
+checking for pcap_get_selectable_fd in -lpcap... yes
+checking for PPI support in libpcap... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for protobuf... yes
+checking for protoc... yes
+checking for libprotobufc... yes
+checking for protoc-c... yes
+configure: WARNING: Using local radiotap headers
+checking for libnm... yes
+checking For nm_device_set_managed in libnm... checking for libnl30... yes
+checking for libnlgenl30... yes
+checking for libnl20... no
+checking for libnl1... no
+checking For mac80211 support in netlink library... yes
+checking for libusb... yes
+checking sensors/sensors.h usability... yes
+checking sensors/sensors.h presence... yes
+checking for sensors/sensors.h... yes
+checking for sensors_init in -lsensors... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating Makefile.inc
+config.status: WARNING:  'Makefile.inc.in' seems to ignore the --datarootdir setting
+config.status: creating packaging/kismet.pc
+config.status: creating packaging/systemd/kismet.service
+config.status: creating packaging/systemd/debug/kismet-debug.service
+config.status: creating capture_linux_bluetooth/Makefile
+config.status: creating capture_linux_wifi/Makefile
+config.status: creating capture_osx_corewlan_wifi/Makefile
+config.status: creating capture_sdr_rtl433/Makefile
+config.status: creating capture_sdr_rtlamr/Makefile
+config.status: creating capture_sdr_rtladsb/Makefile
+config.status: creating capture_freaklabs_zigbee/Makefile
+config.status: creating capture_nrf_mousejack/Makefile
+config.status: creating config.h
+config.status: config.h is unchanged
+
+Configuration complete: 
+         Compiling for: linux-gnu (x86_64)
+           C++ Library: stdc++
+      Protobuf Library: protobuf
+   Installing as group: root
+       Installing into: /usr/local
+          Setuid group: kismet
+   Linux WEXT capture : yes
+        Prelude  SIEM : no
+   PCRE Regex Filters : yes
+LibCapability (enhanced
+   privilege dropping): yes
+   OSX/Darwin capture : n/a (only OSX/Darwin)
+         Linux Netlink: yes (mac80211 VAP creation) - libnl-3.0 libnl-genl-3.0
+  Linux NetworkManager: yes (libnm NetworkManager control)
+       Linux Bluetooth: yes
+         nRF MouseJack: yes
+        Python Modules: yes
+    Python interpreter: python3
+       RTL-SDR RTL_433: yes
+        RTL-SDR RTLAMR: yes
+       RTL-SDR RTLADSB: yes
+      Freaklabs Zigbee: yes
+ lm-sensors monitoring: yes
+        Built-in Debug: yes - Full debug info available on crash, using unwind
+
+
+
+
+

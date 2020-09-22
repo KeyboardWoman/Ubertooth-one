@@ -1,0 +1,90 @@
+ref;value;Field1;Field2;Field3
+C1;2p2;Murata;GRM1555C1H2R2BZ01D;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0402 2.2pF 50volts C0G +/-0.1pF
+C2;1nF;Murata;GRM1555C1H102JA01D;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0402 1000pF 50volts C0G 5%
+C3;1pF;Murata;GRM1555C1H1R0BZ01D;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0402 1.0pF 50volts C0G +/-0.1pF
+C4;18pF;Murata;GRM1555C1H180JZ01J;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0402 18pF 50volts C0G 5%
+C5;6p8;Murata;GRM1555C1H6R8CZ01D;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0402 6.8pF 50volts 0.1pF
+C6;1nF;Murata;GRM1555C1H102JA01D;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0402 1000pF 50volts C0G 5%
+C7;10nF;DNP
+C8;1µF;DNP
+C9;10pF;Murata;GRM1555C1H100JZ01D;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0402 10pF 50volts C0G 5%
+C10;10nF;DNP
+C11;1µF;DNP
+C12;1nF;Murata;GRM1555C1H102JA01D;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0402 1000pF 50volts C0G 5%
+C14;1nF;Murata;GRM1555C1H102JA01D;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0402 1000pF 50volts C0G 5%
+C15;68pF;Murata;GRM1555C1H680JZ01D;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0402 68PF 50V 5%
+C16;100nF;Murata;GRM155R71C104KA88D;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0402 0.1uF 16volts X7R 10%
+C17;10nF;Murata;GRM155R71E103KA01D;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0402 0.01uF 25volts X7R 10%
+C18;2.2µF;TDK;C1608X5R1C225K;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0603 16volts 2.2uF X5R 10%
+C19;27pF;TDK;C1608C0G1H270J;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0603 27pF 50volts C0G 5%
+C20;68pF;Murata;GRM1555C1H680JZ01D;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0402 68PF 50V 5%
+C21;27pF;TDK;C1608C0G1H270J;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0603 27pF 50volts C0G 5%
+C22;1µF;TDK;C1608X5R1C105K;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0603 1uF 16volts X5R 10%
+C23;68pF;Murata;GRM1555C1H680JZ01D;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0402 68PF 50V 5%
+C24;100nF;Murata;GRM155R71C104KA88D;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0402 0.1uF 16volts X7R 10%
+C25;100nF;Murata;GRM155R71C104KA88D;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0402 0.1uF 16volts X7R 10%
+C26;100nF;TDK;C1608X7R1H104K;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0603 0.1uF 50volts X7R 10%
+C27;100nF;TDK;C1608X7R1H104K;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0603 0.1uF 50volts X7R 10%
+C28;100nF;TDK;C1608X7R1H104K;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0603 0.1uF 50volts X7R 10%
+C29;220pF;TDK;C1608X7R1H221K;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0603 220pF 50volts X7R 10%
+C30;100nF;TDK;C1608X7R1H104K;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0603 0.1uF 50volts X7R 10%
+C31;100pF;TDK;C1608C0G1H101J;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0603 100pF 50volts C0G 5%
+C32;2.2µF;TDK;C1608X5R1C225K;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0603 16volts 2.2uF X5R 10%
+C33;100nF;TDK;C1608X7R1H104K;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0603 0.1uF 50volts X7R 10%
+C34;100nF;TDK;C1608X7R1H104K;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0603 0.1uF 50volts X7R 10%
+C35;10nF;Murata;GRM188R71H103KA01D;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0603 0.01uF 50volts X7R 10%
+C36;15pF;Murata;GRM1885C1H150JA01D;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0603 15pF 50volts C0G 5%
+D1;1V8LED;Kingbright;APT1608SGC;Standard LED - SMD GREEN WATER CLEAR
+D2;TXLED;OSRAM;LY L29K-H1K2-26-Z;Standard LED - SMD Yellow, 587nm 28mcd, 2mA
+D3;RXLED;OSRAM;LO L29K-J2L1-24-Z;Standard LED - SMD Orange, 606nm 14mcd, 2mA
+D4;USRLED;Kingbright;APT1608EC;Standard LED - SMD HI EFF RED WTR CLR
+D5;RSTLED;Kingbright;APT1608SGC;Standard LED - SMD GREEN WATER CLEAR
+D6;USBLED;Kingbright;APT1608EC;Standard LED - SMD HI EFF RED WTR CLR
+FB1;FILTER;DNP
+FB2;FILTER;DNP
+FB3;FILTER;DNP
+FB4;FILTER;DNP
+FB5;FILTER;Murata;BLM18TG601TN1D;EMI/RFI Suppressors & Ferrites 600 Ohm 25%
+J1;USB-DEVICE;Molex;48037-1000;USB & Firewire Connectors TYPE A RA SHLDED PLG SMT AU
+L1;3nH;Murata;LQG15HN3N0S02D;RF Inductor
+L2;2n2;Murata;LQW15AN2N2C10D;Power Inductors 2.2 NH +-.2NH
+L3;DNP;DNP
+P1;SMA-CONN;Connector City;CONREVSMA003.062;RF Connectors RP-SMA Fml Edge Mnt for 0.062 Thick Brd
+P2;PROGRAM;DNP
+P3;JTAG;DNP
+P4;EXPAND;DNP
+P5;1V8;DNP
+P6;3V3;DNP
+P7;VBUS;DNP
+P8;GIO1;DNP
+P9;GIO6;DNP
+P10;ATEST1;DNP
+P11;ATEST2;DNP
+P12;DCLK;DNP
+P13;DIO;DNP
+Q1;BC856;NXP;BC856AT,115;PNP general purpose transistor
+R1;4k3;KOA Speer;RK73H1ETTP4301F;Thick Film Resistors - SMD 0402 1/16watt 4.3Kohms 1%
+R2;43k;KOA Speer;RK73H1ETTP4302F;Thick Film Resistors - SMD 0402 1/16watts 43Kohms 1%
+R3;10k;Bourns;CR0603-JW-103ELF;Thick Film Resistors - SMD 0603 10KOHMS 5% 1/10WATT
+R4;330;Bourns;CR0603-JW-331ELF;Thick Film Resistors - SMD 0603 330OHMS 5% 1/10WATT
+R5;470;Bourns;CR0603-JW-471ELF;Thick Film Resistors - SMD 0603 470OHMS 5% 1/10WATT
+R6;470;Bourns;CR0603-JW-471ELF;Thick Film Resistors - SMD 0603 470OHMS 5% 1/10WATT
+R7;330;Bourns;CR0603-JW-331ELF;Thick Film Resistors - SMD 0603 330OHMS 5% 1/10WATT
+R8;330;Bourns;CR0603-JW-331ELF;Thick Film Resistors - SMD 0603 330OHMS 5% 1/10WATT
+R9;10k;Bourns;CR0603-JW-103ELF;Thick Film Resistors - SMD 0603 10KOHMS 5% 1/10WATT
+R10;10k;Bourns;CR0603-JW-103ELF;Thick Film Resistors - SMD 0603 10KOHMS 5% 1/10WATT
+R11;2k2;Bourns;CR0603-JW-222ELF;Thick Film Resistors - SMD 0603 2.2KOHMS 5% 1/10WATT
+R12;33;Vishay/Dale;CRCW060333R0FKEA;Thick Film Resistors - SMD 0603 1/16watt 33ohms 1% 100ppm
+R13;33;Vishay/Dale;CRCW060333R0FKEA;Thick Film Resistors - SMD 0603 1/16watt 33ohms 1% 100ppm
+R14;10k;Bourns;CR0603-JW-103ELF;Thick Film Resistors - SMD 0603 10KOHMS 5% 1/10WATT
+R15;330;Bourns;CR0603-JW-331ELF;Thick Film Resistors - SMD 0603 330OHMS 5% 1/10WATT
+R16;1k5;Bourns;CR0603-JW-152ELF;Thick Film Resistors - SMD 0603 1.5KOHMS 5% 1/10WATT
+R17;10k;Bourns;CR0603-JW-103ELF;Thick Film Resistors - SMD 0603 10KOHMS 5% 1/10WATT
+R18;49.9k;Panasonic;ERJ-3EKF4992V;Thick Film Resistors - SMD Thick Film Chip Res 0603 1% Precision
+R19;30.1k;Panasonic;ERJ-3EKF3012V;Thick Film Resistors - SMD Thick Film Chip Res 0603 1% Precision
+U1;CC2591;Texas Instruments;CC2591RGVR;RF Front End 2.4 GHz
+U3;CC2400;Texas Instruments;CC2400-RTB1;RF Receiver Lo-Pwr Sgl-Chip 2.4 GHz ISM Band Trnscvr
+U4;LPC175X;NXP;LPC1754FBD80,551;Microcontrollers (MCU) ARM Cortex M3 Micro Controller
+U6;IP4220CZ6;NXP;IP4220CZ6,125;ESD Suppressors USB2.0 ESD PROTECT DUAL
+U7;TPS71219;Texas Instruments;TPS71219DRCT;Low Dropout (LDO) Regulators Dual 250 mA Output UltraLow Noise
+X1;ABMM2;Abracon;ABMM2-16.000MHZ-E2-T;Crystals +/-20PPM 16MHz

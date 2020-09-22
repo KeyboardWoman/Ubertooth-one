@@ -1,0 +1,6 @@
+setup.py
+KismetLog/__init__.py
+kismetlog.egg-info/PKG-INFO
+kismetlog.egg-info/SOURCES.txt
+kismetlog.egg-info/dependency_links.txt
+kismetlog.egg-info/top_level.txt

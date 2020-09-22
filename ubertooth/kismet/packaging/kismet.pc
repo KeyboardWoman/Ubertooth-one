@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=/usr/local/bin
+plugindir=/usr/local/lib/kismet
+
+Name: kismet
+Description: Kismet wireless tool
+Version: 2018-08-BETA1
+Cflags: 
+Libs: 
+
+

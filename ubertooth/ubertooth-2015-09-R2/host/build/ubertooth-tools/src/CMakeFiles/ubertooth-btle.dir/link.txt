@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/ubertooth-btle.dir/ubertooth-btle.c.o  -o ubertooth-btle -rdynamic ../../libubertooth/src/libubertooth.so.0.2 -lusb-1.0 /usr/local/lib/libbtbb.so -lbluetooth -Wl,-rpath,/home/opensourcesdr/SDR/ubertooth/ubertooth-2015-09-R2/host/build/libubertooth/src:/usr/local/lib: 

@@ -1,0 +1,16 @@
+ref;value;Field1;Field2;Field3;Field4;Field5;Field6;Field7;Field8
+C1;100nF;TDK;C1608X7R1H104K;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0603 0.1uF 50volts X7R 10%
+C2;10μF;Kemet;B45196H2106K109;Tantalum Capacitors - Solid SMD 10volts 10uF 10%
+C3;100nF;TDK;C1608X7R1H104K;Multilayer Ceramic Capacitors (MLCC) - SMD/SMT 0603 0.1uF 50volts X7R 10%
+D1;TXLED;Kingbright;APT1608SGC;Standard LED - SMD GREEN WATER CLEAR
+D2;RXLED;Kingbright;APT1608EC;Standard LED - SMD HI EFF RED WTR CLR
+J1;USB-MICRO-B;FCI;10103594-0001LF;USB Connectors 5P Quick Connect Micro USB TypeB Rcpt
+P1;pogopins;SparkFun;PRT-09174;QTY 6 Pogo Pins w/ Pointed Tip
+P2;DNP
+R1;DNP
+R2;DNP
+R3;330;Bourns;CR0603-JW-331ELF;Thick Film Resistors - SMD 0603 330OHMS 5% 1/10WATT
+R4;330;Bourns;CR0603-JW-331ELF;Thick Film Resistors - SMD 0603 330OHMS 5% 1/10WATT
+R5;DNP
+R6;DNP
+U1;FT232RL;FTDI;FT232RL;USB Interface IC USB to Serial UART Enhanced IC SSOP-28
